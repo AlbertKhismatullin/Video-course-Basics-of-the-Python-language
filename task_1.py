@@ -3,7 +3,7 @@
 my_list_1 = [2, 5, 8, 2, 12, 12, 4]
 my_list_2 = [2, 7, 12, 3]
 
-for n in my_list_1:
+for n in my_list_1[:]:
     if n in my_list_2:
         my_list_1.remove(n)
 print(my_list_1)
